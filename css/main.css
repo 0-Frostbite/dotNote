@@ -1,0 +1,42 @@
+:root {
+    font-family: "Times New Roman";
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: clamp(18px, 32px, 32px);
+    color: black;
+    padding: 1.5vh 2vw 1vh 2vw;
+}
+
+/*.header div {*/
+/*    padding-left: 1vh;*/
+/*    padding-right: 1vh;*/
+/*}*/
+
+svg {
+    height: clamp(18px, 32px, 32px);
+    width: clamp(18px, 32px, 32px);
+    fill: black;
+}
+
+.header svg:hover {
+    transform: rotate(3600deg);
+    transition: transform 60s linear;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 1vw 0 1vw;
+    /*padding-left: 8px;*/
+    /*padding-right: 8px;*/
+}

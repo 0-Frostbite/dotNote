@@ -1,0 +1,26 @@
+.note {
+  flex: auto;
+  /*width: auto;*/
+  height: clamp(120px, 24vh, 24vh);
+  min-width: max(210px,24vw);
+  max-width: 380px;
+  /*margin: clamp(8px, 1.5vh, 1.5vh) clamp(8px, 1.5vh, 1.5vh);*/
+  margin: min(1vh,1vw);
+  background-color: lightgoldenrodyellow;
+}
+
+#add-note {
+  background-color: whitesmoke;
+  /*height: clamp(108px, 24vh, calc(24vh - 12px));*/
+  /*width: clamp(148px, 18vw, calc(18vw - 12px));*/
+  min-width: 120px;
+  max-width: 240px;
+  border: dashed 3px gray;
+  border-radius: 6px;
+  color: gray;
+  font-size: 30px;
+  font-weight: bold;
+  /*margin: 12px;*/
+  text-align: center;
+  align-content: center;
+}
